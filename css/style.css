@@ -1,0 +1,125 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+}
+.header {
+	background-color: #0050B3;
+	padding: 6px 0 6px 0;
+}
+.header-block {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.search-input {
+	padding: 5px 30px 5px 12px;
+	width: 336px;
+	background: #FFFFFF;
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+	background-image: url('../images/icon-search.svg');
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	font-size: 14px;
+	line-height: 22px;
+}
+.user {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.user-avatar {
+	margin-right: 8px;
+}
+.user-name {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+}
+.nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.nav-panel {
+	margin: auto 12px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.nav-link {
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 12px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.nav-link:before {
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 16px;
+	background: #003a8c;
+	margin-right: 12px;
+}
+.nav-link:last-child:after {
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 16px;
+	background: #003a8c;
+	margin-left: 12px;
+}
+.header-icon {
+	fill: #002766;
+}
+.header-icon:hover {
+	fill: #ffffff;
+}
+.icon-link:last-child:before {
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 16px;
+	background: #003a8c;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.icons-panel {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
